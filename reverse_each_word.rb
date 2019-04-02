@@ -5,5 +5,5 @@ words.split.each do |word|
   reversed_words << word.reverse
 end 
 
- return reversed_words.join(' ')
+ return reversed_words.join("")
 end
