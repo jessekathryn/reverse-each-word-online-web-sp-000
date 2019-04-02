@@ -5,5 +5,5 @@ words.split.each do |word|
   reversed_words << word.reverse
 end 
 
- return reverse_each_word(words)
+ return reversed_words(words)
 end
